@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ENV R_VERSION 3.3.1
+ENV R_VERSION 3.3.2
 
 RUN echo 'options(repos = c(CRAN = "http://cran.rstudio.com/"))' >> ~/.Rprofile
 RUN apk --no-cache add build-base gfortran readline-dev perl zlib-dev bzip2-dev xz-dev pcre-dev libcurl curl-dev libintl gettext-asprintf gettext-dev
